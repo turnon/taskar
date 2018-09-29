@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         taskar
 // @namespace    https://github.com/turnon/taskar
-// @version      0.0.1
+// @version      0.0.2
 // @description  add table of content in jira task browse page
 // @author       block24block@gmail.com
 // @match        http://task.reocar.com:8080/browse/*
@@ -18,7 +18,7 @@ Ateles(['dropdown', 'anchor'], (dd, anchor) => {
         direction: 'left_down',
         afterbegin: document.body,
         style: {
-            id: 'position: fixed; top: 85px; right: -42px; width: 100px; z-index: 99999;'
+            id: 'position: fixed; top: 9px; right: 260px; width: 100px; z-index: 99999;'
         }
     })
 })
